@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020", // Ensure this is ES2020 or higher
+    "lib": [
+      "es2020", // Ensure this is ES2020 or higher
+      "dom"
+    ],
+    "sourceMap": true,
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, // Very important: bypasses type checking for all declaration files (*.d.ts)
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*" // Ensure it includes all files in src
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode-test"
+  ]
+}
